@@ -11,6 +11,12 @@ import { AdminHomeComponent } from './admin-home/admin-home.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ConnectionAdminComponent } from './connection-admin/connection-admin.component';
+import { UserComponent } from './user/user.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { CourseParagraphComponent } from './course-paragraph/course-paragraph.component';
+import { MessageComponent } from './message/message.component';
+import { UserCommentComponent } from './user-comment/user-comment.component';
+import { ChatroomComponent } from './chatroom/chatroom.component';
 
 
 
@@ -26,7 +32,13 @@ import { ConnectionAdminComponent } from './connection-admin/connection-admin.co
     AdminHomeComponent,
     UserHomeComponent,
     FooterComponent,
-    ConnectionAdminComponent
+    ConnectionAdminComponent,
+    UserComponent,
+    SubscriptionComponent,
+    CourseParagraphComponent,
+    MessageComponent,
+    UserCommentComponent,
+    ChatroomComponent
   ],
   imports: [
     BrowserModule,
